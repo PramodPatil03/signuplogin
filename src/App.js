@@ -8,8 +8,8 @@ function App() {
   return (
         <HashRouter>
             <Routes>
-                <Route exact path = 'signuplogin/' element = { <Login />} />
-                <Route exact path = 'signuplogin/signup' element = { <Signup />} />
+                <Route exact path = '/' element = { <Login />} />
+                <Route exact path = '/signup' element = { <Signup />} />
             </Routes>
         </HashRouter>  
   )
