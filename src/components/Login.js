@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Login() {
   document.title = 'Login'
@@ -14,7 +15,7 @@ function Login() {
             <input type="text" id='username' placeholder='Username' />
             <input type="password" id='password' placeholder='Password' />
             <button className='sub-btn' type="submit">Submit</button>
-            <p>New user ? <a href="/signup">Sign up here</a></p>
+            <p>New user ? <Link to="/signup">Sign up here</Link></p>
           </form>
         </div>
       </div>

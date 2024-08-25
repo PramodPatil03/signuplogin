@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Signup() {
   document.title = 'Sign - Up'
@@ -16,7 +17,7 @@ function Signup() {
             <input type="text" id='mobile' placeholder='Mobile' />
             <input type="password" id='password' placeholder='Password' />
             <button className='sub-btn' type="submit">Submit</button>
-            <p>Already have an account? <a href="/">Login here</a></p>
+            <p>Already have an account? <Link to="/">Login here</Link></p>
           </form>
         </div>
       </div>
