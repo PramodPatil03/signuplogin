@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Signup() {
+  document.title = 'Sign - Up'
   return (
     <div className='container'>
       <div className="inner-container">
